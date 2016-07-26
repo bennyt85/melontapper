@@ -237,6 +237,7 @@ class HomeVC: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDelegate, 
 
     func gatherInput() {
         
+        
         soundRecorder.isMeteringEnabled = true
         
       
