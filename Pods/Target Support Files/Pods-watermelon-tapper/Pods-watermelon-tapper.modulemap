@@ -1,0 +1,6 @@
+framework module Pods_watermelon_tapper {
+  umbrella header "Pods-watermelon-tapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

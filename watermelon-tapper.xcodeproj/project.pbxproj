@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1985181D46DD780042FCD8 /* ConfettiTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1985171D46DD780042FCD8 /* ConfettiTestVC.swift */; };
+		1A19851A1D46E0B40042FCD8 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1985191D46E0B40042FCD8 /* confetti.png */; };
+		1A45F0181CEFEEEC004CF346 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A45F0171CEFEEEC004CF346 /* HomeVC.swift */; };
+		1A45F01C1CF00849004CF346 /* AppleGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A45F01B1CF00849004CF346 /* AppleGothic.ttf */; };
+		1A62424E1CE7DE4700D2F5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A62424D1CE7DE4700D2F5EC /* AppDelegate.swift */; };
+		1A6242531CE7DE4700D2F5EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6242511CE7DE4700D2F5EC /* Main.storyboard */; };
+		1A6242551CE7DE4700D2F5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6242541CE7DE4700D2F5EC /* Assets.xcassets */; };
+		1A6242691CE7DF3900D2F5EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6242681CE7DF3900D2F5EC /* Constants.swift */; };
+		1A71A7671CFB35C9003833B2 /* WatermelonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A71A7661CFB35C9003833B2 /* WatermelonImage.swift */; };
+		1A71FD691D46CD3600C43395 /* 5-Sec-Crowd-Cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A71FD681D46CD3600C43395 /* 5-Sec-Crowd-Cheer.mp3 */; };
+		1ABAA2AE1CE924000016CE25 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAA2AD1CE924000016CE25 /* Launch Screen.storyboard */; };
+		1ABAA2B01CE9353A0016CE25 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAA2AF1CE9353A0016CE25 /* HelpVC.swift */; };
+		1AEAB2151D2311BE004D5F0B /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEAB2141D2311BE004D5F0B /* SweetAlert.swift */; };
+		1AF34C321D36F81800A13447 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF34C311D36F81800A13447 /* WalkthroughContentViewController.swift */; };
+		1AF34C341D36FA2F00A13447 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF34C331D36FA2F00A13447 /* WalkthroughPageViewController.swift */; };
+		95F460054F97E6D602E8A57A /* Pods_watermelon_tapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D36D093DC3611800903914C /* Pods_watermelon_tapper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005966422174108740D30EC6 /* Pods-watermelon-tapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watermelon-tapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-watermelon-tapper/Pods-watermelon-tapper.debug.xcconfig"; sourceTree = "<group>"; };
+		1A1985171D46DD780042FCD8 /* ConfettiTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiTestVC.swift; sourceTree = "<group>"; };
+		1A1985191D46E0B40042FCD8 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		1A45F0171CEFEEEC004CF346 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1A45F01B1CF00849004CF346 /* AppleGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleGothic.ttf; sourceTree = "<group>"; };
+		1A62424A1CE7DE4700D2F5EC /* watermelon-tapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watermelon-tapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A62424D1CE7DE4700D2F5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A6242521CE7DE4700D2F5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A6242541CE7DE4700D2F5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6242591CE7DE4700D2F5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6242681CE7DF3900D2F5EC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1A71A7661CFB35C9003833B2 /* WatermelonImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermelonImage.swift; sourceTree = "<group>"; };
+		1A71FD681D46CD3600C43395 /* 5-Sec-Crowd-Cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "5-Sec-Crowd-Cheer.mp3"; path = "../../../Downloads/5-Sec-Crowd-Cheer.mp3"; sourceTree = "<group>"; };
+		1ABAA2AD1CE924000016CE25 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1ABAA2AF1CE9353A0016CE25 /* HelpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		1AEAB2141D2311BE004D5F0B /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		1AF34C311D36F81800A13447 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		1AF34C331D36FA2F00A13447 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		3D36D093DC3611800903914C /* Pods_watermelon_tapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watermelon_tapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B9A0FE11C49BDFA21DEDA3 /* Pods-watermelon-tapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watermelon-tapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-watermelon-tapper/Pods-watermelon-tapper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6242471CE7DE4700D2F5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F460054F97E6D602E8A57A /* Pods_watermelon_tapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6242411CE7DE4700D2F5EC = {
+			isa = PBXGroup;
+			children = (
+				1A62424C1CE7DE4700D2F5EC /* watermelon-tapper */,
+				1A62424B1CE7DE4700D2F5EC /* Products */,
+				5670C4602BDA2260A7BE5979 /* Pods */,
+				C02DB4F02A22C2391814EB82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A62424B1CE7DE4700D2F5EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A62424A1CE7DE4700D2F5EC /* watermelon-tapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A62424C1CE7DE4700D2F5EC /* watermelon-tapper */ = {
+			isa = PBXGroup;
+			children = (
+				1A62425F1CE7DE7600D2F5EC /* Model */,
+				1A6242601CE7DE7C00D2F5EC /* View */,
+				1A6242611CE7DE8400D2F5EC /* Controller */,
+				1A6242621CE7DE8C00D2F5EC /* Util */,
+				1A6242631CE7DE9700D2F5EC /* Resources */,
+				1A6242511CE7DE4700D2F5EC /* Main.storyboard */,
+				1A71FD681D46CD3600C43395 /* 5-Sec-Crowd-Cheer.mp3 */,
+				1A62424D1CE7DE4700D2F5EC /* AppDelegate.swift */,
+				1A6242541CE7DE4700D2F5EC /* Assets.xcassets */,
+				1A1985191D46E0B40042FCD8 /* confetti.png */,
+				1A6242591CE7DE4700D2F5EC /* Info.plist */,
+				1ABAA2AD1CE924000016CE25 /* Launch Screen.storyboard */,
+			);
+			path = "watermelon-tapper";
+			sourceTree = "<group>";
+		};
+		1A62425F1CE7DE7600D2F5EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AF34C331D36FA2F00A13447 /* WalkthroughPageViewController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1A6242601CE7DE7C00D2F5EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AEAB2141D2311BE004D5F0B /* SweetAlert.swift */,
+				1A71A7661CFB35C9003833B2 /* WatermelonImage.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1A6242611CE7DE8400D2F5EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A1985171D46DD780042FCD8 /* ConfettiTestVC.swift */,
+				1A45F0171CEFEEEC004CF346 /* HomeVC.swift */,
+				1ABAA2AF1CE9353A0016CE25 /* HelpVC.swift */,
+				1AF34C311D36F81800A13447 /* WalkthroughContentViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1A6242621CE7DE8C00D2F5EC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1A6242681CE7DF3900D2F5EC /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		1A6242631CE7DE9700D2F5EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A45F01B1CF00849004CF346 /* AppleGothic.ttf */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5670C4602BDA2260A7BE5979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005966422174108740D30EC6 /* Pods-watermelon-tapper.debug.xcconfig */,
+				42B9A0FE11C49BDFA21DEDA3 /* Pods-watermelon-tapper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C02DB4F02A22C2391814EB82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D36D093DC3611800903914C /* Pods_watermelon_tapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6242491CE7DE4700D2F5EC /* watermelon-tapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A62425C1CE7DE4700D2F5EC /* Build configuration list for PBXNativeTarget "watermelon-tapper" */;
+			buildPhases = (
+				327118C160E915790C502B7E /* [CP] Check Pods Manifest.lock */,
+				1A6242461CE7DE4700D2F5EC /* Sources */,
+				1A6242471CE7DE4700D2F5EC /* Frameworks */,
+				1A6242481CE7DE4700D2F5EC /* Resources */,
+				30F13BC05AF3881AD1E20C25 /* [CP] Embed Pods Frameworks */,
+				40AC0E74B34B28588B1DFF96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watermelon-tapper";
+			productName = "watermelon-tapper";
+			productReference = 1A62424A1CE7DE4700D2F5EC /* watermelon-tapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6242421CE7DE4700D2F5EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "James Tuttle";
+				TargetAttributes = {
+					1A6242491CE7DE4700D2F5EC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4E5XUM99EM;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 1A6242451CE7DE4700D2F5EC /* Build configuration list for PBXProject "watermelon-tapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6242411CE7DE4700D2F5EC;
+			productRefGroup = 1A62424B1CE7DE4700D2F5EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6242491CE7DE4700D2F5EC /* watermelon-tapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6242481CE7DE4700D2F5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6242551CE7DE4700D2F5EC /* Assets.xcassets in Resources */,
+				1A71FD691D46CD3600C43395 /* 5-Sec-Crowd-Cheer.mp3 in Resources */,
+				1A6242531CE7DE4700D2F5EC /* Main.storyboard in Resources */,
+				1ABAA2AE1CE924000016CE25 /* Launch Screen.storyboard in Resources */,
+				1A45F01C1CF00849004CF346 /* AppleGothic.ttf in Resources */,
+				1A19851A1D46E0B40042FCD8 /* confetti.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30F13BC05AF3881AD1E20C25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-watermelon-tapper/Pods-watermelon-tapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		327118C160E915790C502B7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40AC0E74B34B28588B1DFF96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-watermelon-tapper/Pods-watermelon-tapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6242461CE7DE4700D2F5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A45F0181CEFEEEC004CF346 /* HomeVC.swift in Sources */,
+				1AEAB2151D2311BE004D5F0B /* SweetAlert.swift in Sources */,
+				1AF34C341D36FA2F00A13447 /* WalkthroughPageViewController.swift in Sources */,
+				1A1985181D46DD780042FCD8 /* ConfettiTestVC.swift in Sources */,
+				1ABAA2B01CE9353A0016CE25 /* HelpVC.swift in Sources */,
+				1AF34C321D36F81800A13447 /* WalkthroughContentViewController.swift in Sources */,
+				1A71A7671CFB35C9003833B2 /* WatermelonImage.swift in Sources */,
+				1A62424E1CE7DE4700D2F5EC /* AppDelegate.swift in Sources */,
+				1A6242691CE7DF3900D2F5EC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A6242511CE7DE4700D2F5EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6242521CE7DE4700D2F5EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A62425A1CE7DE4700D2F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A62425B1CE7DE4700D2F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A62425D1CE7DE4700D2F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005966422174108740D30EC6 /* Pods-watermelon-tapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "watermelon-tapper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaymz69.watermelon-tapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A62425E1CE7DE4700D2F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B9A0FE11C49BDFA21DEDA3 /* Pods-watermelon-tapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "watermelon-tapper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaymz69.watermelon-tapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6242451CE7DE4700D2F5EC /* Build configuration list for PBXProject "watermelon-tapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A62425A1CE7DE4700D2F5EC /* Debug */,
+				1A62425B1CE7DE4700D2F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A62425C1CE7DE4700D2F5EC /* Build configuration list for PBXNativeTarget "watermelon-tapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A62425D1CE7DE4700D2F5EC /* Debug */,
+				1A62425E1CE7DE4700D2F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6242421CE7DE4700D2F5EC /* Project object */;
+}
